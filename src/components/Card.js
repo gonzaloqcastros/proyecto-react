@@ -1,9 +1,9 @@
-function card() {
+function cards() {
     return (
-        <div className="card">
-            <img className="armor" src="../../armor.jpg" alt="armor"/>
+        <div className="cards">
+            <img className="armor" src="../../armor.png" alt="armor"/>
         </div>
     );
 }
 
-export default card;
+export default cards;
