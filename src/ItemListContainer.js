@@ -1,9 +1,10 @@
+import "./ItemListContainer.css"
 import Card from "./components/Card";
 
-function ItemListContainer() {
+function ItemListContainer({saludo}) {
     return (
-        <div className="home_container">
-            Home
+        <div className="ItemListContainer">
+            <h1> {saludo}</h1>
             <Card />
             <Card />
             <Card />
