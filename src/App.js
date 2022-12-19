@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function App() {
+const App = function() {
   return (
     <div className="App">
     <Navbar className='bg-primary'>
