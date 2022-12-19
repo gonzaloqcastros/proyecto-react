@@ -20,7 +20,7 @@ const App = function() {
               <NavDropdown title="Objetos" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Armaduras</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Armas</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Monturas</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Accesorios</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Vip</NavDropdown.Item>
               </NavDropdown>
