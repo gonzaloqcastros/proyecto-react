@@ -1,0 +1,36 @@
+{
+    "armaduras": [
+        {
+          "nombre": "Armadura de Diamante",
+          "descripcionCorta": "Armadura completa defensa:170 defensa mágica: 70 peso ...",
+          "descripcion": "Armadura completa defensa:170 defensa mágica: 70 peso:70kg inmune a:veneno, hemorragia, congelamiento, incineración, electrocutado.",
+          "imagen":"armor",
+          "precio": "$5000"
+        },
+        {
+          "nombre": "Aradura de Platino",
+          "descripcionCorta": "Armadura completa, defensa:150 defensa mágica: 60 peso ...",
+          "descripcion": "Armadura completa, defensa:150 defensa mágica: 60 peso:60kg inmune a:veneno, hemorragia, congelamiento, incineración, electrocutado.",
+          "imagen":"armor.png",
+          "precio": "$4000"
+        }
+      ],
+      "armas": [
+        {
+            "nombre": "Claymore",
+            "descripcionCorta": "Claymore de Acero reforjado, daño 120 daño mágico:0 peso ...",
+            "descripcion": "Claymore de Acero reforjado, daño 120 daño mágico:0 peso:10kg penetración de armadura:50, puede causar hemorragia aunque el usuario sea inmune",
+            "imagen":"sword.jpg",
+            "precio": "$2000"
+          }
+      ],
+      "anillos": [
+        {
+            "nombre": "Anillo del gato",
+            "descripcionCorta": "Reduce enormemente el daño de caída...",
+            "descripcion": "Anillo poseído por una antigua deidad gatuna, reduce enormemente el daño de caída.",
+            "imagen":"rings.jpg",
+            "precio": "$1500"
+          }
+      ]
+}
