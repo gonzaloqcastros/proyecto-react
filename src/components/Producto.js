@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 const Producto = function ({nombre, descripcionCorta, imagen, precio}) {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={`"./public/${imagen}"`}/>
+      <Card.Img variant="top" src={`../../public/${imagen}`}/>
       <Card.Body>
         <Card.Title>{nombre}</Card.Title>
         <Card.Text>

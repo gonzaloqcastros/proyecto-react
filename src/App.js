@@ -21,8 +21,10 @@ const App = function() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Inicio</Nav.Link>
-              <Nav.Link href="#link">Novedades</Nav.Link>
+              <Link to="/">
+                <Nav.Link href="#home">Inicio</Nav.Link>
+              </Link>
+              <Nav.Link href="#">Novedades</Nav.Link>
               <NavDropdown title="Objetos" id="basic-nav-dropdown">
                 <Link to="/armaduras">
                   <NavDropdown.Item href="#action/3.1">Armaduras</NavDropdown.Item>
@@ -43,12 +45,11 @@ const App = function() {
         <ItemListContainer saludo={"Bienvenido!"}/>
         <ul>
           <Routes>
+            <Route path="/" element={<p>Selecciona el tipo de objeto que desees ver!</p>} />
             <Route path="/armaduras" element={<Lista list={armaduras} />} />
-            <Route path="/armaduras/:nombre" element={<CardDesc data={data} />} />
+            <Route path="/:type/:nombre" element={<CardDesc data={data} />} />
             <Route path="/armas" element={<Lista list={armas} />} />
-            <Route path="/armas/:nombre" element={<CardDesc data={data} />} />
             <Route path="/anillos" element={<Lista list={anillos} />} />
-            <Route path="/armas/:nombre" element={<CardDesc data={data} />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </ul>
