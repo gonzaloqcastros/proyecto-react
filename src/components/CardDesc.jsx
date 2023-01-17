@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const CardDesc = ({ data }) => {
-  let { type, nombre } = useParams();
+  const { type, nombre } = useParams();
   const productos = data[type];
   const producto = productos.find((producto) => producto.nombre === nombre);
   return (

@@ -46,10 +46,8 @@ const App = function() {
         <ul>
           <Routes>
             <Route path="/" element={<p>Selecciona el tipo de objeto que desees ver!</p>} />
-            <Route path="/armaduras" element={<Lista list={armaduras} />} />
             <Route path="/:type/:nombre" element={<CardDesc data={data} />} />
-            <Route path="/armas" element={<Lista list={armas} />} />
-            <Route path="/anillos" element={<Lista list={anillos} />} />
+            <Route path="/:type" element={<Lista list={data} />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </ul>
